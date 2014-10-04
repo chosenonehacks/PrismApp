@@ -3,5 +3,9 @@
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
  xmlns:prism="http://www.codeplex.com/prism"
  Title="Shell">
-    <ItemsControl Name="MainRegion" prism:RegionManager.RegionName="MainRegion" />
+    <DockPanel LastChildFill="True" >
+        
+        <ItemsControl DockPanel.Dock="Top" prism:RegionManager.RegionName="MenuRegion" />
+        <ItemsControl DockPanel.Dock="Bottom" prism:RegionManager.RegionName="MainRegion" />
+    </DockPanel>
 </Window>

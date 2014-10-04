@@ -130,6 +130,10 @@
       <Project>{cb1ab512-12ad-48ec-bb95-0b35f41ad1f2}</Project>
       <Name>ModuleA</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ModuleB\ModuleB.csproj">
+      <Project>{12be62dd-45a3-4e29-b377-aadd81d35abe}</Project>
+      <Name>ModuleB</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="ShellWindow.xaml">

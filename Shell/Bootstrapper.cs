@@ -31,6 +31,7 @@ namespace Shell
             ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
 
             moduleCatalog.AddModule(typeof(ModuleA.ModuleA), InitializationMode.WhenAvailable);
+            moduleCatalog.AddModule(typeof(ModuleB.ModuleB), InitializationMode.WhenAvailable);
         }
     }
 }

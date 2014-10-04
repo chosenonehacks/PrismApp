@@ -6,21 +6,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModuleA
+namespace ModuleB
 {
-    public class ModuleA : IModule
+    public class ModuleB : IModule
     {
         protected IRegionManager RegionManager { get; private set; }
 
-        public ModuleA(IRegionManager regionManager)
+        public ModuleB(IRegionManager regionManager)
         {
             RegionManager = regionManager;
         }
 
         public void Initialize()
         {
-            RegionManager.RegisterViewWithRegion("MenuRegion", typeof(ButtonViewA));
-            RegionManager.RegisterViewWithRegion("MainRegion", typeof(ModuleAView));
+            RegionManager.RegisterViewWithRegion("MenuRegion", typeof(ButtonViewB));
+            
         }
     }
 }
