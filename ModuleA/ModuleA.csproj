@@ -85,6 +85,7 @@
     <Compile Include="ButtonViewA.xaml.cs">
       <DependentUpon>ButtonViewA.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ButtonViewAViewModel.cs" />
     <Compile Include="ModuleA.cs" />
     <Compile Include="ModuleAView.xaml.cs">
       <DependentUpon>ModuleAView.xaml</DependentUpon>

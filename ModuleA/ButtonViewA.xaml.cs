@@ -23,6 +23,7 @@ namespace ModuleA
         public ButtonViewA()
         {
             InitializeComponent();
+            this.DataContext = new ButtonViewAViewModel();
         }
     }
 }

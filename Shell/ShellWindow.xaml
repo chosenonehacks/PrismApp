@@ -6,6 +6,6 @@
     <DockPanel LastChildFill="True" >
         
         <ItemsControl DockPanel.Dock="Top" prism:RegionManager.RegionName="MenuRegion" />
-        <ItemsControl DockPanel.Dock="Bottom" prism:RegionManager.RegionName="MainRegion" />
+        <ContentControl DockPanel.Dock="Bottom" prism:RegionManager.RegionName="MainRegion" />
     </DockPanel>
 </Window>
